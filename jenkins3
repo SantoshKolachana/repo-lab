@@ -36,7 +36,7 @@ stage('Test') {
 }
 }
 post {
-always {
+failure {
 // Add any cleanup or post-build steps here
 echo "Pipeline completed for ${params.ENVIRONMENT} environment"
  }
