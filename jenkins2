@@ -24,5 +24,11 @@ echo "Choice: ${params.CHOICE}"
 echo "Password: ${params.PASSWORD}"
 }
 }
+stage('Interactive Input') {
+steps {
+input Hello
+
+}
+
 }
 }
